@@ -1,8 +1,85 @@
 body{
-    background-image: url("images/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color:gray;
+    height: 95vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    color:white;
+    text-align: center;
+}
+.message{
+    display: flex;
+    font-size:40px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-family: 'Serif';
+    color: rgb(0, 0, 0);
+}
+ul{
+    display: flex;
+    padding: 20px;
+    margin: 0;
+    gap:16px;
+    list-style-type: none;
 
+}
+.choices{
+    flex:1;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  gap:100px;
+}
+#gameChoice{
+    margin: 20px;
+    height: 30px;
+    width: auto;
+}
+.footer{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+    padding:6px;
+    
+}
+#gameChoices{
+    padding: 5px;
+
+}
+img{
+    padding: 3px;
+    border: 5px solid white;
+}
+
+.playNow{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+}
+.playnow{
+    height: 50px;
+    width: auto;
+    background-color: wheat;
+}
+.scoreBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
